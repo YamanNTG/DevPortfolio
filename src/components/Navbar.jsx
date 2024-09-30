@@ -1,10 +1,13 @@
 import { links } from "../data";
-import { FaGithubSquare, FaLinkedin, FaInstagram } from "react-icons/fa";
-
+import {
+  LinkedInLogoIcon,
+  InstagramLogoIcon,
+  GitHubLogoIcon,
+} from "@radix-ui/react-icons";
 const Navbar = () => {
   return (
-    <nav className="bg-emerald-100">
-      <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+    <nav>
+      <div className="align-element py-4 flex sm:gap-x-16 sm:items-center sm:py-8 ">
         {/* Main nav content */}
         <div>
           <h1 className="text-7xl font-bold tracking-wider">I'm Claudiu</h1>
@@ -35,7 +38,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <GitHubLogoIcon className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
 
             <a
@@ -43,7 +46,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <LinkedInLogoIcon className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
 
             <a
@@ -51,7 +54,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <InstagramLogoIcon className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
         </div>
