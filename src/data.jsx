@@ -74,13 +74,26 @@ export const projects = [
     github: "https://github.com/YamanNTG",
     title: "Uni Music",
     text: "This is a project where music teachers and studens meet, classes can be created by teachers and be booked by studens for an hourly rate.",
+    techUsed: [
+      <RiNextjsFill className="h-8 w-8 text-emerald-500" />,
+      <SiTypescript className="h-8 w-8 text-emerald-500" />,
+      <SiTailwindcss className="h-8 w-8 text-emerald-500" />,
+      <SiPrisma className="h-8 w-8 text-emerald-500" />,
+      <SiMongodb className="h-8 w-8 text-emerald-500" />,
+    ],
   },
   {
     id: nanoid(),
     img: "https://res.cloudinary.com/dzilw7kgd/image/upload/v1727813200/SmartPainting_rotw1k.png",
     url: "https://smartpaintingworks.ro/",
-    github: "https://github.com/YamanNTG",
     title: "Smart Painting",
-    text: "Project made for a company that paints and repairs cars.",
+    text: "This roject was made for a company that paints and repairs cars.",
+    techUsed: [
+      <RiNextjsFill className="h-8 w-8 text-emerald-500" />,
+      <SiTypescript className="h-8 w-8 text-emerald-500" />,
+      <SiTailwindcss className="h-8 w-8 text-emerald-500" />,
+      <SiPrisma className="h-8 w-8 text-emerald-500" />,
+      <SiMongodb className="h-8 w-8 text-emerald-500" />,
+    ],
   },
 ];

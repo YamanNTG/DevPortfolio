@@ -1,14 +1,14 @@
 import React from "react";
-import webdev from "../assets/webdev.svg";
+import contact from "../assets/contact.svg";
 import SectionTitle from "./SectionTitle";
-const About = () => {
+const Contact = () => {
   return (
-    <section className="align-element flex flex-col items-center">
+    <section className="align-element flex items-center flex-col">
       <div className="hidden md:block">
-        <img src={webdev} className="h-80 lg:h-96" />
+        <img src={contact} className="h-80 lg:h-96" />
       </div>
       <article>
-        <SectionTitle text="about me" />
+        <SectionTitle text="Contact" />
         <p className="text-slate-600 mt-8 leading-loose">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint maiores
           itaque doloribus asperiores dolorum quas voluptates distinctio, porro
@@ -20,4 +20,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

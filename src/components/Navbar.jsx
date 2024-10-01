@@ -7,9 +7,9 @@ import {
 const Navbar = () => {
   return (
     <nav>
-      <div className="align-element py-4 flex sm:gap-x-16 sm:items-center sm:py-8 ">
+      <div className="align-element py-4 flex flex-col md:flex-row md:justify-between items-center sm:gap-x-16 text-center sm:py-8 ">
         {/* Main nav content */}
-        <div>
+        <div className="">
           <h1 className="text-7xl font-bold tracking-wider">I'm Claudiu</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
             Front-End Developer
@@ -17,7 +17,9 @@ const Navbar = () => {
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             turning ideas into interactive reality
           </p>
-          <div className="flex flex-col gap-x-3 sm:hidden">
+        </div>
+        <div className="flex flex-col md:flex-row md:gap-x-5">
+          <div className="flex flex-col md:flex-row gap-x-3 items-center">
             {links.map((link) => {
               const { id, href, text } = link;
               return (
@@ -32,7 +34,7 @@ const Navbar = () => {
             })}
           </div>
           {/* Socials */}
-          <div className="flex gap-x-4 mt-4">
+          <div className="flex md:flex-row gap-x-4 mt-4">
             <a
               href="https://github.com/YamanNTG"
               target="_blank"
