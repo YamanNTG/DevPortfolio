@@ -18,7 +18,7 @@ const Navbar = () => {
             turning ideas into interactive reality
           </p>
         </div>
-        <div className="flex flex-col md:flex-row md:gap-x-5">
+        <div className="flex flex-col md:flex-row md:gap-x-5 mt-5 md:mt-0">
           <div className="flex flex-col md:flex-row gap-x-3 items-center">
             {links.map((link) => {
               const { id, href, text } = link;
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <a
                   key={id}
                   href={href}
-                  className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300"
+                  className="capitalize text-lg font-bold text-slate-500 tracking-wide hover:text-emerald-600 duration-300"
                 >
                   {text}
                 </a>
