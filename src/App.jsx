@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About.jsx";
 import TechStack from "./components/TechStack.jsx";
+import Projects from "./components/Projects.jsx";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <About />
       <TechStack />
+      <Projects />
     </div>
   );
 };

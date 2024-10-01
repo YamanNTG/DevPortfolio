@@ -65,3 +65,22 @@ export const skills = [
     text: "Experienced with MongoDB, building and maintaining flexible, NoSQL databases for scalable and high-performance applications.",
   },
 ];
+
+export const projects = [
+  {
+    id: nanoid(),
+    img: "https://res.cloudinary.com/dzilw7kgd/image/upload/v1727812871/DarkUniMusic_nlcftl.png",
+    url: "https://uni-music-delta.vercel.app/",
+    github: "https://github.com/YamanNTG",
+    title: "Uni Music",
+    text: "This is a project where music teachers and studens meet, classes can be created by teachers and be booked by studens for an hourly rate.",
+  },
+  {
+    id: nanoid(),
+    img: "https://res.cloudinary.com/dzilw7kgd/image/upload/v1727813200/SmartPainting_rotw1k.png",
+    url: "https://smartpaintingworks.ro/",
+    github: "https://github.com/YamanNTG",
+    title: "Smart Painting",
+    text: "Project made for a company that paints and repairs cars.",
+  },
+];
