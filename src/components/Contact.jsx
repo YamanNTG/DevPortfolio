@@ -31,7 +31,7 @@ const Contact = () => {
           <button className="btn btn-wide bg-teal-700 text-white hover:bg-teal-500 hover:text-yellow-100">
             Download CV
           </button>
-          <p className="text-slate-600 leading-loose font-bold">
+          <p className="text-slate-600 leading-loose font-bold mt-5">
             Looking forward to hearing from you!
           </p>
         </div>
