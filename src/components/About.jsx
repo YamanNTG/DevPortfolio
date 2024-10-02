@@ -3,7 +3,7 @@ import webdev from "../assets/webdev.svg";
 import SectionTitle from "./SectionTitle";
 const About = () => {
   return (
-    <section className="align-element flex flex-col items-center">
+    <section className="align-element flex flex-col items-center" id="about">
       <div className="hidden md:block">
         <img src={webdev} className="h-80 lg:h-96" />
       </div>

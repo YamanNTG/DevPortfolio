@@ -3,7 +3,7 @@ import contact from "../assets/contact.svg";
 import SectionTitle from "./SectionTitle";
 const Contact = () => {
   return (
-    <section className="align-element flex items-center flex-col">
+    <section className="align-element flex items-center flex-col" id="contact">
       <div className="hidden md:block">
         <img src={contact} className="h-80 lg:h-96" />
       </div>
