@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="mb-6">
           <h1 className="text-7xl font-bold tracking-wider">I'm Claudiu</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Front-End Developer
+            Web Developer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             turning ideas into interactive reality
