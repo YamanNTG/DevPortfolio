@@ -73,7 +73,7 @@ export const projects = [
     url: "https://uni-music-delta.vercel.app/",
     github: "https://github.com/YamanNTG",
     title: "Uni Music",
-    text: "This is a project where music teachers and studens meet, classes can be created by teachers and be booked by studens for an hourly rate.",
+    text: "This is a project where music teachers and students meet, classes can be created by teachers and be booked by students for an hourly rate.",
     techUsed: [
       <RiNextjsFill className="h-8 w-8 text-emerald-500" />,
       <SiTypescript className="h-8 w-8 text-emerald-500" />,
