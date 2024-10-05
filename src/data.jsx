@@ -89,13 +89,7 @@ export const projects = [
     github: "https://github.com/YamanNTG",
     title: "Coming soon",
     text: "Another project will be coming soon...",
-    techUsed: [
-      <RiNextjsFill className="h-8 w-8 text-emerald-500" />,
-      <SiTypescript className="h-8 w-8 text-emerald-500" />,
-      <SiTailwindcss className="h-8 w-8 text-emerald-500" />,
-      <SiPrisma className="h-8 w-8 text-emerald-500" />,
-      <SiMongodb className="h-8 w-8 text-emerald-500" />,
-    ],
+    techUsed: [],
   },
   {
     id: nanoid(),
@@ -104,12 +98,6 @@ export const projects = [
     github: "https://github.com/YamanNTG",
     title: "Coming soon",
     text: "Another project will be coming soon...",
-    techUsed: [
-      <RiNextjsFill className="h-8 w-8 text-emerald-500" />,
-      <SiTypescript className="h-8 w-8 text-emerald-500" />,
-      <SiTailwindcss className="h-8 w-8 text-emerald-500" />,
-      <SiPrisma className="h-8 w-8 text-emerald-500" />,
-      <SiMongodb className="h-8 w-8 text-emerald-500" />,
-    ],
+    techUsed: [],
   },
 ];
