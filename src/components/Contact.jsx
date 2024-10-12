@@ -26,9 +26,28 @@ const Contact = ({ cloudinary }) => {
           .
         </p>
         <ul className="mt-4">
-          <li className="font-bold text-slate-800">Email: </li>
-          <li className="font-bold text-slate-800">LinkedIn:</li>
+          <li className="font-bold text-slate-800">
+            Email:{" "}
+            <a
+              href="mailto:claudiuoprea21@gmail.com"
+              className="text-teal-700 hover:underline"
+            >
+              claudiuoprea21@gmail.com
+            </a>
+          </li>
+          <li className="font-bold text-slate-800">
+            LinkedIn:{" "}
+            <a
+              href="https://www.linkedin.com/in/claudiuoprea21/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-700 hover:underline"
+            >
+              https://www.linkedin.com/in/claudiuoprea21/
+            </a>
+          </li>
         </ul>
+
         <div className="mt-4 flex flex-col items-center capitalize">
           <a
             href={myPDF.toURL()}
