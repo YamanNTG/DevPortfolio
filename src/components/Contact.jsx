@@ -1,7 +1,9 @@
 import React from "react";
 import contact from "../assets/contact.svg";
 import SectionTitle from "./SectionTitle";
-const Contact = () => {
+const Contact = ({ cloudinary }) => {
+  const myPDF = cloudinary.image("CV_Claudiu_Oprea_xuezag");
+
   return (
     <section className="align-element flex items-center flex-col" id="contact">
       <div className="hidden md:block">
@@ -28,9 +30,16 @@ const Contact = () => {
           <li className="font-bold text-slate-800">LinkedIn:</li>
         </ul>
         <div className="mt-4 flex flex-col items-center capitalize">
-          <button className="btn btn-wide bg-teal-700 text-white hover:bg-teal-500 hover:text-yellow-100">
-            Download CV
-          </button>
+          <a
+            href={myPDF.toURL()}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            <button className="btn btn-wide bg-teal-700 text-white hover:bg-teal-500 hover:text-yellow-100">
+              Download CV
+            </button>
+          </a>
           <p className="text-slate-600 leading-loose font-bold mt-5">
             Looking forward to hearing from you!
           </p>
