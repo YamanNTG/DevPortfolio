@@ -5,6 +5,7 @@ import {
   SiPrisma,
   SiMongodb,
   SiTailwindcss,
+  SiReact,
 } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 
@@ -73,7 +74,7 @@ export const projects = [
     url: "https://uni-music-delta.vercel.app/",
     github: "https://github.com/YamanNTG",
     title: "Uni Music",
-    text: "This is a project where music teachers and students meet, classes can be created by teachers and be booked by students for an hourly rate.",
+    text: "Uni Music was developed using Next.js, Prisma, and TypeScript, styled with Tailwind, and deployed on Vercel. The platform connects music teachers and students, enabling teachers to create classes that students can book at an hourly rate. It includes features for class management and real-time availability. The project offers a smooth and user-friendly experience for scheduling music lessons.",
     techUsed: [
       <RiNextjsFill className="h-8 w-8 text-emerald-500" />,
       <SiTypescript className="h-8 w-8 text-emerald-500" />,
@@ -84,12 +85,15 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://res.cloudinary.com/dzilw7kgd/image/upload/v1728087462/pexels-alleksana-4271927_vxdoh2.jpg",
-    url: "#",
-    github: "https://github.com/YamanNTG",
-    title: "Coming soon",
-    text: "Another project will be coming soon...",
-    techUsed: [],
+    img: "https://res.cloudinary.com/dzilw7kgd/image/upload/v1728769155/Academiademuzica_zqwgli.png",
+    url: "https://www.invatamuzica.eu/",
+    title: "Academia de Muzica Daniela Music",
+    text: "The website was built using Next.js, React.js, and Tailwind CSS, with an emphasis on responsive design and user experience. The project included multi-language support. Key takeaways from this project include SEO optimization, custom components, and a smooth user experience across both desktop and mobile platforms. Deployment was managed through Vercel.",
+    techUsed: [
+      <RiNextjsFill className="h-8 w-8 text-emerald-500" />,
+      <SiTailwindcss className="h-8 w-8 text-emerald-500" />,
+      <SiReact className="h-8 w-8 text-emerald-500" />,
+    ],
   },
   {
     id: nanoid(),
