@@ -2,7 +2,7 @@ import React from 'react';
 import contact from '../assets/contact.svg';
 import SectionTitle from './SectionTitle';
 const Contact = ({ cloudinary }) => {
-  const myPDF = cloudinary.image('CV_Claudiu_Oprea_xuezag');
+  const myPDF = cloudinary.image('CV_Claudiu_Oprea_2_fffkip');
 
   return (
     <section className="align-element flex items-center flex-col" id="contact">

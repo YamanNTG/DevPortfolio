@@ -1,11 +1,12 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
 import {
   SiTypescript,
   SiPrisma,
   SiMongodb,
   SiTailwindcss,
   SiReact,
+  SiExpress,
 } from 'react-icons/si';
 import { RiNextjsFill } from 'react-icons/ri';
 
@@ -65,6 +66,18 @@ export const skills = [
     icon: <SiMongodb className="h-16 w-16 text-emerald-500" />,
     text: 'Experienced with MongoDB, building and maintaining flexible, NoSQL databases for scalable and high-performance applications.',
   },
+  {
+    id: nanoid(),
+    title: 'NodeJS',
+    icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
+    text: 'Proficient in Node.js, developing secure and high-performance server-side applications with RESTful APIs that enable reliable data flow and backend functionality.',
+  },
+  {
+    id: nanoid(),
+    title: 'ExpressJS',
+    icon: <SiExpress className="h-16 w-16 text-emerald-500" />,
+    text: 'Proficient in Express.js, developing clean and organized web applications with robust routing systems and middleware management for optimal backend performance.',
+  },
 ];
 
 export const projects = [
@@ -97,11 +110,16 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://res.cloudinary.com/dzilw7kgd/image/upload/v1728087462/pexels-alleksana-4271927_vxdoh2.jpg',
-    url: '#',
+    img: 'https://res.cloudinary.com/dzilw7kgd/image/upload/v1738025339/TransitTask_rbvlbk.png',
+    url: 'https://buss-front.netlify.app/',
     github: 'https://github.com/YamanNTG',
-    title: 'Coming soon',
-    text: 'Another project will be coming soon...',
-    techUsed: [],
+    title: 'TransitTask',
+    text: 'TransitTask is a project under development, changes are being pushed constantly so viewers can test the current functionalities. The scope of the project is to create a platform for bus drivers where they can post news, create and track progress on issue and a swap holidays feature between drivers.',
+    techUsed: [
+      <SiTypescript className="h-8 w-8 text-emerald-500" />,
+      <SiMongodb className="h-8 w-8 text-emerald-500" />,
+      <SiExpress className="h-8 w-8 text-emerald-500" />,
+      <FaNodeJs className="h-8 w-8 text-emerald-500" />,
+    ],
   },
 ];
